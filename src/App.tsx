@@ -1,11 +1,15 @@
 import './App.css'
+import Snow from './Snow'
 
 function App() {
   return (
-    <div className="app">
-      <h1>Hello World</h1>
-      <p>Your new project is ready.</p>
-    </div>
+    <>
+      <Snow />
+      <div className="app">
+        <h1>Hello World</h1>
+        <p>Your new project is ready.</p>
+      </div>
+    </>
   )
 }
 
